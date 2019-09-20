@@ -26,5 +26,12 @@ class Test
         Iterator<String> i = h.iterator(); 
         while (i.hasNext()) 
             System.out.println(i.next()); 
+            
+            //iterating by for each loop
+      //  for (String i : h)  
+           // System.out.println(i);   
+           
+           //Iterating by for each method 
+       // h.forEach(i -> System.out.println(i)); 
     } 
 } 
